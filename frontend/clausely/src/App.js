@@ -14,8 +14,8 @@ export default function App() {
       const fd = new FormData();
       fd.append("file", file); 
       const res = demo
-        ? await fetch("http://localhost:8000/demo-analysis")
-        : await fetch("http://localhost:8000/analyze-contract", {
+        ? await fetch("https://clausely-3toy.onrender.com/demo-analysis")
+        : await fetch("https://clausely-3toy.onrender.com/analyze-contract", {
             method: "POST",
             body: fd,
           });
