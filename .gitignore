@@ -1,0 +1,26 @@
+# --- Node / React ---
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+frontend/.env*
+frontend/.npm/
+frontend/.yarn/
+
+# --- Python ---
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/venv/
+backend/.env
+backend/.venv/
+
+# --- General / OS / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
+
+# --- Git itself ---
+.git/
