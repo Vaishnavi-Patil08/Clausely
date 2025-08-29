@@ -3,7 +3,7 @@ export default function Hero({ onStart }) {
     <section className="flex flex-col items-center justify-center min-h-screen text-white text-center px-6">
       <span className="text-6xl animate-bounce mb-6">📝</span>
       <h1 className="text-5xl font-bold drop-shadow-lg mb-4">
-        No Cap Doc Decoder
+        Clausely
       </h1>
       <p className="mb-8 opacity-90">
         AI-powered contract analysis that speaks your language
